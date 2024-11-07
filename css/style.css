@@ -78,15 +78,16 @@ body {
     color: #000000;
 }
 
-.circle-bg {
+.circle-frame {
     position: absolute;
     width: 218px;
     height: 218px;
     left: 44px;
     top: 129px;
 }
-
-.ellipse-effect {
+/*Хотя можно мне кажется и просто ellipse-effect и ellipse-figure ибо солныжки и в других местах можно из блоков собрать */
+/*Хотя не, всё таки это элементы ибо в другой блок отличный от этого проблематично вставить будет*/
+.circle-frame__ellipse-effect {
     position: absolute;
     width: 218px;
     height: 218px;
@@ -95,7 +96,7 @@ body {
     border-radius: 50%;
 }
 
-.ellipse-figure {
+.circle-frame__ellipse-figure {
     position: absolute;
     width: 172.22px;
     height: 172.22px;
